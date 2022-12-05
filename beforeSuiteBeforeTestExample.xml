@@ -8,6 +8,7 @@
             <class name="annotations.Test2"></class>
         </classes>
     </test>
+
     <test name="test2">
         <packages>
             <package name="annotations"/>

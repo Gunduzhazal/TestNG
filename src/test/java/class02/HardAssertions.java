@@ -44,8 +44,9 @@ public class HardAssertions {
         Assert.assertEquals(ActualErrorMsg,ExpectedErrorMsg);
 
         System.out.println("i am here after 1st assertion");
+
         boolean isDisplayed = errorMSG.isDisplayed();
-//        assertion will pass if the paraemter boolean is "true" will fail if the parameter boolean is false
+//      assertion will pass if the parameter boolean is "true" will fail if the parameter boolean is false
         Assert.assertTrue(isDisplayed);
     }
 

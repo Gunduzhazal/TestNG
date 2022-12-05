@@ -42,7 +42,7 @@ public class loginTest  {
 
         String actualError = errorMsg.getText();
 
-        Assert.assertEquals(actualError, "Invalid credential");
+        Assert.assertEquals(actualError, "Invalid credentials");
     }
 
     @AfterMethod(alwaysRun = true)

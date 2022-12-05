@@ -40,8 +40,8 @@ public class SoftAssertions {
         String ActualErrorMsg = errorMSG.getText();
         String ExpectedErrorMsg = "Invalid credential";
 
-        SoftAssert soft =new SoftAssert();
-        soft.assertEquals(ActualErrorMsg,ExpectedErrorMsg);
+        SoftAssert soft = new SoftAssert();
+        soft.assertEquals(ActualErrorMsg, ExpectedErrorMsg);
 
         System.out.println("I am here after 1st assertion");
 

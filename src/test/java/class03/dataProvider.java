@@ -32,10 +32,10 @@ public class dataProvider {
     @DataProvider(name = "credentials")
     public Object[][] data() {
         Object[][] loginData = {
-                {"Admin", "12345", "Invalid credential"},
+                {"Admin", "12345", "Invalid credentials"},
                 {"ABCD", "Hum@nhrm123", "Invalid credentials"},
-                {"Admin", "", "Password cannot be empt"},
-                {"", "Hum@nhrm123", "Username cannot be empt"}
+                {"Admin", "", "Password cannot be empty"},
+                {"", "Hum@nhrm123", "Username cannot be empty"}
         };
         return loginData;
         }
